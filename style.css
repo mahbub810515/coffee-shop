@@ -38,3 +38,45 @@ header nav ul li a{
 header nav ul li a:hover{   
     color: rgb(143, 161, 238);    
 }
+/* end nav section style */
+/* start hero section style */
+.hero{
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./image/bg-image.avif");
+    background-position: center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.hero .hero-content{   
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+.hero .hero-content h5{
+    color: var(--coffee-color);
+    font-size: 14px;
+    font-weight: 500px;
+}
+.hero .hero-content p{
+    color: white;
+    font-size: 17px;
+    font-weight: 500px;
+}
+.hero .hero-content h2{
+     color:  white;
+    font-size: 52px;
+    font-weight: 700px;
+}
+.hero .hero-content button{
+    max-width: 20%;
+    margin-left: 40%;
+    padding: 14px 0;
+    border-radius: 18px;
+    background-color: #E9B44C;
+  }
+/* end hero section style */
