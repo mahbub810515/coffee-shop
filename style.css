@@ -1,0 +1,40 @@
+:root{
+    --coffee-color:#E9B44C;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    background-color: #2E2622;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    
+}
+header nav h1{
+    color: var(--coffee-color);
+    font-size: 26px;
+    font-weight: 700px;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600px;
+}
+header nav ul li a:hover{   
+    color: rgb(143, 161, 238);    
+}
