@@ -79,4 +79,40 @@ header nav ul li a:hover{
     border-radius: 18px;
     background-color: #E9B44C;
   }
-/* end hero section style */
+  /* our story section start  */
+  .our-story .main-content{
+    padding: 80px 0;
+    display: flex;
+    gap: 20px;
+  }
+.our-story .main-content div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.our-story .main-content .text-area{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.our-story .main-content .text-area h2{
+    font-size: 30px;
+    font-weight: 700px;
+}
+.our-story .main-content .text-area p{
+    color: #5A4F47;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.our-story .main-content .text-area button{
+    max-width: 25%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--coffee-color);
+    font-size: 20px;
+}
+/* end our story section style */
