@@ -116,3 +116,36 @@ header nav ul li a:hover{
     font-size: 20px;
 }
 /* end our story section style */
+/* start popular section style */
+.popular{
+    background-color: #F1E7D8;
+    padding: 80px 0px;
+    text-align: center;
+}
+.popular div p{
+    font-size: 13px;
+    font-weight: 500px;
+    color: var(--coffee-color);
+}
+.popular div h1{
+    margin-bottom: 50px;
+    font-size: 50pxpx;
+    font-weight: 700px;
+}
+.popular .popular-bottom{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+
+}
+.popular .popular-card{
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* end popular section style */
