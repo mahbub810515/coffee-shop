@@ -150,8 +150,7 @@ header nav ul li a:hover{
 }
 /* end popular section style */
 /* START WHY US section style */
-.why-us{
-   
+.why-us{   
     padding: 80px 0px;
     text-align: center;
 }
@@ -187,3 +186,40 @@ header nav ul li a:hover{
     font-weight: 500px;
 }
 /* START WHY US section style */
+/* START schedule section style */
+.schedule{   
+    padding: 80px 0px;
+    text-align: center;
+    display: flex;
+}
+.schedule div p{
+    font-size: 13px;
+    font-weight: 500px;
+    color: var(--coffee-color);
+}
+.schedule div h1{
+    margin-bottom: 50px;
+    font-size: 50pxpx;
+    font-weight: 700px;
+}
+.schedule .schedule-table{
+    
+}
+.schedule .schedule-table table{
+    border-collapse: collapse;
+    max-width: 500px;
+    
+}
+.schedule .schedule-table table th{
+    color: var(--coffee-color);
+    background-color: #1a1919;
+    font-size: 30px;
+    font-weight: 700px;
+    padding: 5px 30px;
+}
+.schedule .schedule-table table td{
+    padding: 5px 30px;
+    border: 1px solid rgb(56, 53, 53);
+}
+
+/* end schedule section style */
