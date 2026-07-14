@@ -221,5 +221,48 @@ header nav ul li a:hover{
     padding: 5px 30px;
     border: 1px solid rgb(56, 53, 53);
 }
-
 /* end schedule section style */
+/* start footer section style */
+.ending-badge{
+    padding: 80px 0;
+
+}
+.ending-badge div img{
+    max-width: 100%;
+}
+.footer{
+    background-color: #2E2622;
+}
+.footer .footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer .footer-main{
+    padding: 30px 100px;
+     color: white;     
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.footer .footer-main ul {
+    text-align: center;
+    list-style-type: none;
+}
+.footer .footer-main ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .footer-main ul li a:hover{   
+    color: rgb(91, 105, 233);
+}
+.footer .footer-bottom hr{   
+    border: none;
+    border-top: 1px solid gray;
+}
+.footer .footer-bottom p{
+    padding: 26px 0;
+    text-align: center;
+   color: white;
+}
+/* end footer section style */
